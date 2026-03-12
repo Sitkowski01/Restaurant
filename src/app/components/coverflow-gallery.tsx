@@ -1,6 +1,5 @@
 import { useState, useEffect, useCallback, useRef } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
-import { ImageWithFallback } from "./figma/ImageWithFallback";
 
 const C = {
   gold: "#B68A3A",
@@ -98,11 +97,12 @@ export function CoverflowGallery({ images, onImageClick, interval = 6000 }: Cove
             }}
           >
             <div className="relative w-full" style={{ paddingBottom: "66%" }}>
-              <ImageWithFallback
+              <img
                 src={img.src}
                 alt={img.alt}
                 loading="eager"
                 decoding="async"
+                referrerPolicy="no-referrer"
                 className="absolute inset-0 w-full h-full object-cover"
                 style={{ width: "100%", height: "100%", objectFit: "cover" }}
                 draggable={false}

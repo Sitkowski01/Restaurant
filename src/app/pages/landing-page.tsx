@@ -92,12 +92,12 @@ const PRESS = [
 ];
 
 const GALLERY_IMAGES = [
-  { id: 1, src: "https://images.unsplash.com/photo-1414235077428-338fc7c4d16f?w=800&q=80", alt: "Risotto truflowe" },
+  { id: 1, src: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&q=80", alt: "Risotto truflowe" },
   { id: 2, src: "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=800&q=80", alt: "Elegancka sala jadalna" },
   { id: 3, src: "https://images.unsplash.com/photo-1615937657715-bc7b4b7962c1?w=800&q=80", alt: "Wykwintna kuchnia francuska" },
-  { id: 4, src: "https://images.unsplash.com/photo-1510812431401-ae7d6f7c2f39?w=800&q=80", alt: "Wybór z piwnicy winnej" },
+  { id: 4, src: "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?w=800&q=80", alt: "Wybór z piwnicy winnej" },
   { id: 5, src: "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=800&q=80", alt: "Nakrycie stołu" },
-  { id: 6, src: "https://images.unsplash.com/photo-1551024601-5c3a469c4b2a?w=800&q=80", alt: "Sztuka deserów" },
+  { id: 6, src: "https://images.unsplash.com/photo-1488477181946-6428a0291777?w=800&q=80", alt: "Sztuka deserów" },
   { id: 7, src: "https://images.unsplash.com/photo-1559339352-11d035aa65de?w=800&q=80", alt: "Bar i lounge" },
   { id: 8, src: "https://images.unsplash.com/photo-1600891964092-4316c288032e?w=800&q=80", alt: "Przygotowanie polędwicy wagyu" },
 ];
